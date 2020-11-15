@@ -41,7 +41,7 @@ Next Apollo: https://github.com/adamsoffer/next-apollo/blob/master/src/withApoll
     yarn add -D ts-node -> to run the -ts file
         ///this above command help to setup the and run ts and node, but ts-node is slow
         to solve this we used below command
-    "watch": "tsc -w"     (step1)
+    "watch": "tsc -w"     (step1) 
         run -> yarn watch (this will create dis/index.js)
         Add    "start":"node dist/index.js",
     yarn start - (step2) this will also run 
@@ -53,6 +53,7 @@ Next Apollo: https://github.com/adamsoffer/next-apollo/blob/master/src/withApoll
 
 0:11:29 MikroORM Setup 
     --help to setup the database
+    --link - https://mikro-orm.io/docs/migrations/#using-via-cli
     yarn add @mikro-orm/cli @mikro-orm/core @mikro-orm/migrations @mikro-orm/postgresql pg
     npx mikro-orm migration:create -> Migration of db
 
