@@ -1,5 +1,5 @@
 ---
----constant.ts
+---constant.ts file
 export const __prod__  = process.env.NODE_ENV === "production";
 
 ----Entity post.js
